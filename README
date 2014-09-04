@@ -1,143 +1,72 @@
-INTRODUCTION
+介绍
 ============
-ucore labs was used as OS Experiments in OS Course Of Dept. of Computer Science & Technology, Tsinghua University.
+ucore OS是用于清华大学计算机系本科操作系统课程的OS教学试验内容。ucore OS起源于MIT CSAIL PDOS课题组开发的xv6&jos、哈佛大学开发的OS161教学操作系统、以及Linux-2.4内核。
 
-ucore is a teaching OS which is derived from xv6&jos in MIT, OS161 in Harvard and Linux.
-ucore was developed and used in Department of Computer Science & Technology, Institute for Interdisciplinary Information Sciences, Tsinghua University.
-The codes in the files that constitute xv6&jos are Copyright (2006-Current) Frans Kaashoek, Robert Morris, and Russ Cox and uses MIT License.
-The codes in the files that constitute OS/161 are written by David A. Holland.
-The codes in the files that constitute ucore are Copyright (2010-Current) Yu Chen, Naizheng Wang, Yong Xiang and uses GPL License.
-The documents in the files that constitute ucore are Copyright (2010-Current) Yu Chen, Yong Xiang and uses Creative Commons Attribution/Share-Alike (CC-BY-SA) License. 
+ucore OS中包含的xv6&jos代码版权属于Frans Kaashoek, Robert Morris, and Russ Cox，使用MIT License。ucore OS中包含的OS/161代码版权属于 David A. Holland。其他代码版权属于陈渝、王乃铮、向勇，并采用GPL License.
 
-PEOPLES 
+ucore OS相关的文档版权属于陈渝、向勇，并采用 Creative Commons Attribution/Share-Alike (CC-BY-SA) License. 
+
+开发维护人员 
+============
+陈渝 http://soft.cs.tsinghua.edu.cn/~chen
+茅俊杰 eternal.n08@gmail.com
+
+助教
+============
+何嘉权
+徐永健
+王  欢
+陈一璋
+等
+
+实验内容
 ========
+lab0 : 完成实验环境的搭建，熟悉基本的Linux命令行操作和工具的使用
+lab1 ：启动操作系统的bootloader
+lab2 ：物理内存管理子系统
+lab3 ：虚拟内存管理子系统
+lab4 ：内核线程子系统
+lab5 ：用户进程管理子系统
+lab6 ：处理器调度子系统
+lab7 : 同步互斥子系统
+lab8 : 文件系统
 
-OS course for Yao class, fall, 2013
------------------------------------
-Lectures: Chen, Yu   http://soft.cs.tsinghua.edu.cn/~chen
-TA: Qi, Xiao  qixiao0113@gmail.com
-TA: Mao, Junjie eternal.n08@gmail.com
 
-CONTENTS
-========
-
-Notes, Lectures OS course for Yao class, fall, 2013
------------------
-lec1: os intro 09162013
-
-labs info
-----------------]
-lab0: preparing
-lab1: boot/protect mode/stack/interrupt
-lab2: physical memory management
-lab3: virtual memory management
-lab4: kernel thread management
-lab5: user process management
-lab6: scheduling
-lab7: mutex/sync
-lab8: filesystem
-
-WORK IN MS WINDOWS
-==================
-Working in Linux is encouraged. But If you like to work in MS Windows, we provide virtual machine environment (Runnint Ubuntu in VirtualBox) in
-Windows to help you to finish the labs. If you don't want to install ubuntu and other softs to finish these labs in Windows, you can use 
-VirtualBox soft (https://www.virtualbox.org/) and a virtual disk image with all these softs. Below example is shown how to setup lab environment in Windows.
-You can download this virtual disk image -- oslabs_for_student_2012.zip (576.2MB,) from  http://pan.baidu.com/share/link?shareid=69868&uk=2585194235, which
-is an VirtualBox disk image (contains ubuntu 12.04 and needed softs, and is zipped with zip and xz format), and can be unzipped 
-by haozip software (http://www.haozip.com). 
-After unzip oslabs_for_student_2012.zip, you will get 
----
-C:\vms\ubuntu-12.04.vbox.xz
-C:\vms\ubuntu-12.04.vmdk.vmdk.xz
-C:\vms\ubuntu-12.04.vmdk-flat.vmdk.xz
----
-then you will continue unzip all these files, and get
----
-C:\vms\ubuntu-12.04.vbox
-C:\vms\ubuntu-12.04.vmdk.vmdk
-C:\vms\ubuntu-12.04.vmdk-flat.vmdk
----
-If you installed VirtualBox soft, then the last step is: double clik file "ubuntu-12.04.vbox" and run ubuntu 12.04 in VirtualBox.
-In ubuntu 12.04 login Interface:
-username: chy
-password: <SPACE KEY>
-
-After you login, you will see the directory ucore_lab in HOME directory.
-
-TESTED ENVIRONMENT
-==================
-UBUNTU 14.04: GCC-4.8.2 CLANG-3.5
-FEDORA 20: GCC-4.8.2
-
-EXERCISE STEPS
-==============
-0 Get the newest os lab src codes/docs.(Insure you can connect to github in ubuntu running on VrtualBox)
-0.1 If you try to get all codes/docs 
-  $rm -rf ucore_lab
-  $git clone git://github.com/chyyuu/ucore_lab.git
-  $cd ucore_lab
-0.2 If you gloned ucore_lab and only try to get the updated codes/docs
-  $cd ucore_lab
-  $git pull
-1 $cd labX  
-2 read codes (specially the modified or added files)
-3 add your code
-4 compile your code
-  $make
-5 check your code
-  $make qemu
-OR
-  $make grade
-6 handin your code
-  $make handin
-
-OPTION
-==============
-Now, ucore suuport LLVM/Clang-3.5 + 
-in step4:
-  $ USELLVM=1 make
-then you will use clang to compile ucore
-
-GRADE/RANK
-==========
-Superman: Finish all OS labs in one month by yourself
-Master: Finish all OS labs in two month by yourself
-Veteran: Finish all OS labs in three month by yourself
-Apprentice: Finish all OS labs in one semester with other guy's help
- 
-RESOURCE REPOSITORY
-===================
-Basic OS labs (for students who learn OS course)
-The newest lab codes and docs is in https://github.com/chyyuu/ucore_lab
-
-Advanced OS labs (for OS geeks or hackers or guys with Superman/Master Rank)
-The newest lab codes and docs is in https://github.com/chyyuu/ucore_plus
-
-LEARNING DISSCUSS GROUPS
-========================
-
-OS course for Yao class, fall, 2013
-----------------------------------
-OS course for Yao class discuss site is in https://piazza.com/class/hlhc2vatkon361
-
-general discuss
---------------------------------
-If you have any questions about ucore basic os labs, 
-you can subscribe to the Google Groups "os-course" group (http://groups.google.com/group/oscourse?hl=en.)
-To post to this group, send email to oscourse@googlegroups.com.
-To unsubscribe from this group, send email to oscourse+unsubscribe@googlegroups.com.
-For more options, visit this group at http://groups.google.com/group/oscourse?hl=en.
-
-DEVELOPMENT DISCUSS GROUPS
+在windows x86-64环境下开发
 ==========================
-If you have any questions about ucore advanced os labs, 
-If you want to be a developer of ucore or pay attention to the development of ucore, 
-you can subscribe to the Google Groups "ucore_dev" group (http://groups.google.com/group/ucore_dev?hl=en.)
-To post to this group, send email to ucore_dev@googlegroups.com.
-To unsubscribe from this group, send email to ucore_dev+unsubscribe@googlegroups.com.
-For more options, visit this group at http://groups.google.com/group/ucore_dev?hl=en.
+ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环境，则建议安装VirtualBox虚拟机软件(https://www.virtualbox.org/)，并下载已经安装好ubuntu 14.04  x86-64的虚拟硬盘文件压缩包。VirtualBox和虚拟硬盘文件压缩包位于 http://pan.baidu.com/s/1gdePM6J 。 压缩包可以用haozip for windows软件(http://www.haozip.com)解压。 解压压缩包后，可得到如下内容（大约4GB多）。 
+---
+\mooc-os\mooc-os.vbox
+\mooc-os\mooc-os.vbox-prev
+\mooc-os\mooc-os.vdi
+---
 
-UCORERS (Contributors)
+如果此时你已经安装好了VirtualBox，在Windows资源管理器中双击文件“mooc-os.vbox”，就可以在VirtualBox模拟的x86-64计算机中运行ubuntu 14.04  x86-64，并可以开始学习ucore OS实验了。
+
+用户名是 moocos
+口令是 <空格键>
+
+
+练习步骤
+========
+进入VirtualBox中运行的ubuntu，点击左侧的gnome-terminal软件图标，可启动gnome-terminal软件。在此软件中，执行如下命令：
+1、目前环境中已经有ucore lab源码，可进一步取得最新ucore lab源码
+  $cd  moocos/ucore_lab  #到ucore lab所在目录
+  $git pull   #取得最新的ucore lab源代码
+  $cd
+
+2、学习源码
+  $cd labX  #X为 1--8  
+3、阅读，修改源码，可以用understand软件或vim软件
+  $understand
+4、修改完毕后，编译实验代码
+  $make
+5、如果编译无误，则可以运行测试一下
+  $make qemu
+6、可以运行如下命令，看看自己的得分
+  $make grade
+
+
+UCORERS (代码贡献者)
 ======================
-Junjie Mao, Yuheng Chen, Cong Liu, Yang Yang, Zhun Qu, Shengwei Ren, Wenlei Zhu, Cao Zhang, Tong Sen, Xu Chen, 
-Cang Nan, Yujian Fang, Wentao Han, Kaichen Zhang, Xiaolin Guo, Tianfan Xue, Gang Hu, Cao Liu, Yu Su,Xinhao Yuan, ...
+茅俊杰、陈宇恒、刘聪、杨扬、渠准、任胜伟、朱文雷、曹正、沈彤、陈旭、蓝昶、方宇剑、韩文涛、张凯成、郭晓林、薛天凡、胡刚、刘超、粟裕、袁昕颢...
