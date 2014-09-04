@@ -1,10 +1,14 @@
 介绍
 ============
-ucore OS是用于清华大学计算机系本科操作系统课程的OS教学试验内容。ucore OS起源于MIT CSAIL PDOS课题组开发的xv6&jos、哈佛大学开发的OS161教学操作系统、以及Linux-2.4内核。
+ucore OS是用于清华大学计算机系本科操作系统课程的OS教学试验内容。
+ucore OS起源于MIT CSAIL PDOS课题组开发的xv6&jos、哈佛大学开发的
+OS161教学操作系统、以及Linux-2.4内核。
 
-ucore OS中包含的xv6&jos代码版权属于Frans Kaashoek, Robert Morris, and Russ Cox，使用MIT License。ucore OS中包含的OS/161代码版权属于 David A. Holland。其他代码版权属于陈渝、王乃铮、向勇，并采用GPL License.
-
-ucore OS相关的文档版权属于陈渝、向勇，并采用 Creative Commons Attribution/Share-Alike (CC-BY-SA) License. 
+ucore OS中包含的xv6&jos代码版权属于Frans Kaashoek, Robert Morris,
+and Russ Cox，使用MIT License。ucore OS中包含的OS/161代码版权属于
+David A. Holland。其他代码版权属于陈渝、王乃铮、向勇，并采用GPL License.
+ucore OS相关的文档版权属于陈渝、向勇，并采用 Creative Commons 
+Attribution/Share-Alike (CC-BY-SA) License. 
 
 开发维护人员 
 ============
@@ -21,7 +25,7 @@ ucore OS相关的文档版权属于陈渝、向勇，并采用 Creative Commons 
 
 实验内容
 ========
-lab0 : 完成实验环境的搭建，熟悉基本的Linux命令行操作和工具的使用
+lab0 : 完成实验环境的搭建，熟悉基本的Linux命令和工具
 lab1 ：启动操作系统的bootloader
 lab2 ：物理内存管理子系统
 lab3 ：虚拟内存管理子系统
@@ -34,14 +38,20 @@ lab8 : 文件系统
 
 在windows x86-64环境下开发
 ==========================
-ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环境，则建议安装VirtualBox虚拟机软件(https://www.virtualbox.org/)，并下载已经安装好ubuntu 14.04  x86-64的虚拟硬盘文件压缩包。VirtualBox和虚拟硬盘文件压缩包位于 http://pan.baidu.com/s/1gdePM6J 。 压缩包可以用haozip for windows软件(http://www.haozip.com)解压。 解压压缩包后，可得到如下内容（大约4GB多）。 
+ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环境，则建议安装
+VirtualBox虚拟机软件(https://www.virtualbox.org/)，并下载已经安装好ubuntu
+14.04  x86-64的虚拟硬盘文件压缩包。VirtualBox和虚拟硬盘文件压缩包位于
+http://pan.baidu.com/s/1gdePM6J 。 压缩包可以用haozip for windows软件
+(http://www.haozip.com)解压。 解压压缩包后，可得到如下内容（大约4GB多）。 
 ---
 \mooc-os\mooc-os.vbox
 \mooc-os\mooc-os.vbox-prev
 \mooc-os\mooc-os.vdi
 ---
 
-如果此时你已经安装好了VirtualBox，在Windows资源管理器中双击文件“mooc-os.vbox”，就可以在VirtualBox模拟的x86-64计算机中运行ubuntu 14.04  x86-64，并可以开始学习ucore OS实验了。
+如果此时你已经安装好了VirtualBox，在Windows资源管理器中双击文件“mooc-os.vbox”，
+就可以在VirtualBox模拟的x86-64计算机中运行ubuntu 14.04  x86-64，并可以开始学习
+ucore OS实验了。
 
 用户名是 moocos
 口令是 <空格键>
@@ -49,7 +59,8 @@ ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环�
 
 练习步骤
 ========
-进入VirtualBox中运行的ubuntu，点击左侧的gnome-terminal软件图标，可启动gnome-terminal软件。在此软件中，执行如下命令：
+进入VirtualBox中运行的ubuntu，点击左侧的gnome-terminal软件图标，可启动gnome-terminal
+软件。在此软件中，执行如下命令：
 1、目前环境中已经有ucore lab源码，可进一步取得最新ucore lab源码
   $cd  moocos/ucore_lab  #到ucore lab所在目录
   $git pull   #取得最新的ucore lab源代码
@@ -69,4 +80,6 @@ ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环�
 
 UCORERS (代码贡献者)
 ======================
-茅俊杰、陈宇恒、刘聪、杨扬、渠准、任胜伟、朱文雷、曹正、沈彤、陈旭、蓝昶、方宇剑、韩文涛、张凯成、郭晓林、薛天凡、胡刚、刘超、粟裕、袁昕颢...
+茅俊杰、陈宇恒、刘聪、杨扬、渠准、任胜伟、朱文雷、
+曹正、沈彤、陈旭、蓝昶、方宇剑、韩文涛、张凯成、
+S郭晓林、薛天凡、胡刚、刘超、粟裕、袁昕颢...
