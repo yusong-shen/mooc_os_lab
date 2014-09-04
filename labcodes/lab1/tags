@@ -1,0 +1,852 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALT	./kern/driver/console.c	258;"	d	file:
+BS_OCMD	./kern/driver/kbdreg.h	23;"	d
+BUFSIZE	./kern/libs/readline.c	3;"	d	file:
+C	./kern/driver/console.c	321;"	d	file:
+CAPSLOCK	./kern/driver/console.c	260;"	d	file:
+CGA_BASE	./kern/driver/console.c	43;"	d	file:
+CGA_BUF	./kern/driver/console.c	44;"	d	file:
+CMDBYTE	./kern/driver/kbdreg.h	60;"	d
+COM1	./kern/driver/console.c	19;"	d	file:
+COM_DLL	./kern/driver/console.c	23;"	d	file:
+COM_DLM	./kern/driver/console.c	24;"	d	file:
+COM_FCR	./kern/driver/console.c	28;"	d	file:
+COM_IER	./kern/driver/console.c	25;"	d	file:
+COM_IER_RDI	./kern/driver/console.c	26;"	d	file:
+COM_IIR	./kern/driver/console.c	27;"	d	file:
+COM_LCR	./kern/driver/console.c	29;"	d	file:
+COM_LCR_DLAB	./kern/driver/console.c	30;"	d	file:
+COM_LCR_WLEN8	./kern/driver/console.c	31;"	d	file:
+COM_LSR	./kern/driver/console.c	36;"	d	file:
+COM_LSR_DATA	./kern/driver/console.c	37;"	d	file:
+COM_LSR_TSRE	./kern/driver/console.c	39;"	d	file:
+COM_LSR_TXRDY	./kern/driver/console.c	38;"	d	file:
+COM_MCR	./kern/driver/console.c	32;"	d	file:
+COM_MCR_DTR	./kern/driver/console.c	34;"	d	file:
+COM_MCR_OUT2	./kern/driver/console.c	35;"	d	file:
+COM_MCR_RTS	./kern/driver/console.c	33;"	d	file:
+COM_RX	./kern/driver/console.c	21;"	d	file:
+COM_TX	./kern/driver/console.c	22;"	d	file:
+CONSBUFSIZE	./kern/driver/console.c	206;"	d	file:
+CRT_COLS	./kern/driver/console.c	46;"	d	file:
+CRT_ROWS	./kern/driver/console.c	45;"	d	file:
+CRT_SIZE	./kern/driver/console.c	47;"	d	file:
+CTL	./kern/driver/console.c	257;"	d	file:
+DPL_KERNEL	./kern/mm/memlayout.h	20;"	d
+DPL_USER	./kern/mm/memlayout.h	21;"	d
+E0ESC	./kern/driver/console.c	264;"	d	file:
+ELFHDR	./boot/bootmain.c	34;"	d	file:
+ELF_MAGIC	./libs/elf.h	6;"	d
+E_BAD_PROC	./libs/error.h	6;"	d
+E_FAULT	./libs/error.h	10;"	d
+E_INVAL	./libs/error.h	7;"	d
+E_NO_FREE_PROC	./libs/error.h	9;"	d
+E_NO_MEM	./libs/error.h	8;"	d
+E_UNSPECIFIED	./libs/error.h	5;"	d
+FL_AC	./kern/mm/mmu.h	22;"	d
+FL_AF	./kern/mm/mmu.h	7;"	d
+FL_CF	./kern/mm/mmu.h	5;"	d
+FL_DF	./kern/mm/mmu.h	12;"	d
+FL_ID	./kern/mm/mmu.h	25;"	d
+FL_IF	./kern/mm/mmu.h	11;"	d
+FL_IOPL_0	./kern/mm/mmu.h	15;"	d
+FL_IOPL_1	./kern/mm/mmu.h	16;"	d
+FL_IOPL_2	./kern/mm/mmu.h	17;"	d
+FL_IOPL_3	./kern/mm/mmu.h	18;"	d
+FL_IOPL_MASK	./kern/mm/mmu.h	14;"	d
+FL_NT	./kern/mm/mmu.h	19;"	d
+FL_OF	./kern/mm/mmu.h	13;"	d
+FL_PF	./kern/mm/mmu.h	6;"	d
+FL_RF	./kern/mm/mmu.h	20;"	d
+FL_SF	./kern/mm/mmu.h	9;"	d
+FL_TF	./kern/mm/mmu.h	10;"	d
+FL_VIF	./kern/mm/mmu.h	23;"	d
+FL_VIP	./kern/mm/mmu.h	24;"	d
+FL_VM	./kern/mm/mmu.h	21;"	d
+FL_ZF	./kern/mm/mmu.h	8;"	d
+GD_KDATA	./kern/mm/memlayout.h	15;"	d
+GD_KTEXT	./kern/mm/memlayout.h	14;"	d
+GD_TSS	./kern/mm/memlayout.h	18;"	d
+GD_UDATA	./kern/mm/memlayout.h	17;"	d
+GD_UTEXT	./kern/mm/memlayout.h	16;"	d
+IA32flags	./kern/trap/trap.c	/^static const char *IA32flags[] = {$/;"	v	file:
+IO_PIC1	./kern/driver/picirq.c	6;"	d	file:
+IO_PIC2	./kern/driver/picirq.c	7;"	d	file:
+IO_TIMER1	./kern/driver/clock.c	11;"	d	file:
+IRQ_COM1	./kern/trap/trap.h	37;"	d
+IRQ_ERROR	./kern/trap/trap.h	40;"	d
+IRQ_IDE1	./kern/trap/trap.h	38;"	d
+IRQ_IDE2	./kern/trap/trap.h	39;"	d
+IRQ_KBD	./kern/trap/trap.h	36;"	d
+IRQ_OFFSET	./kern/driver/picirq.h	7;"	d
+IRQ_OFFSET	./kern/trap/trap.h	33;"	d
+IRQ_SLAVE	./kern/driver/picirq.c	9;"	d	file:
+IRQ_SPURIOUS	./kern/trap/trap.h	41;"	d
+IRQ_TIMER	./kern/trap/trap.h	35;"	d
+KBCMDP	./kern/driver/kbdreg.h	29;"	d
+KBC_AUXDISABLE	./kern/driver/kbdreg.h	32;"	d
+KBC_AUXECHO	./kern/driver/kbdreg.h	36;"	d
+KBC_AUXENABLE	./kern/driver/kbdreg.h	33;"	d
+KBC_AUXTEST	./kern/driver/kbdreg.h	34;"	d
+KBC_AUXWRITE	./kern/driver/kbdreg.h	37;"	d
+KBC_DISABLE	./kern/driver/kbdreg.h	66;"	d
+KBC_ECHO	./kern/driver/kbdreg.h	71;"	d
+KBC_ENABLE	./kern/driver/kbdreg.h	67;"	d
+KBC_KBDDISABLE	./kern/driver/kbdreg.h	40;"	d
+KBC_KBDECHO	./kern/driver/kbdreg.h	35;"	d
+KBC_KBDENABLE	./kern/driver/kbdreg.h	41;"	d
+KBC_KBDTEST	./kern/driver/kbdreg.h	39;"	d
+KBC_MODEIND	./kern/driver/kbdreg.h	70;"	d
+KBC_PULSE0	./kern/driver/kbdreg.h	42;"	d
+KBC_PULSE1	./kern/driver/kbdreg.h	43;"	d
+KBC_PULSE2	./kern/driver/kbdreg.h	44;"	d
+KBC_PULSE3	./kern/driver/kbdreg.h	45;"	d
+KBC_RAMREAD	./kern/driver/kbdreg.h	30;"	d
+KBC_RAMWRITE	./kern/driver/kbdreg.h	31;"	d
+KBC_RESEND	./kern/driver/kbdreg.h	64;"	d
+KBC_RESET	./kern/driver/kbdreg.h	63;"	d
+KBC_SELFTEST	./kern/driver/kbdreg.h	38;"	d
+KBC_SETDEFAULT	./kern/driver/kbdreg.h	65;"	d
+KBC_SETTABLE	./kern/driver/kbdreg.h	69;"	d
+KBC_TYPEMATIC	./kern/driver/kbdreg.h	68;"	d
+KBDATAP	./kern/driver/kbdreg.h	47;"	d
+KBOUTP	./kern/driver/kbdreg.h	48;"	d
+KBR_ACK	./kern/driver/kbdreg.h	76;"	d
+KBR_BREAK	./kern/driver/kbdreg.h	79;"	d
+KBR_ECHO	./kern/driver/kbdreg.h	81;"	d
+KBR_EXTENDED	./kern/driver/kbdreg.h	74;"	d
+KBR_FAILURE	./kern/driver/kbdreg.h	78;"	d
+KBR_OVERRUN	./kern/driver/kbdreg.h	77;"	d
+KBR_RESEND	./kern/driver/kbdreg.h	75;"	d
+KBR_RSTDONE	./kern/driver/kbdreg.h	80;"	d
+KBSTATP	./kern/driver/kbdreg.h	19;"	d
+KBS_DIB	./kern/driver/kbdreg.h	20;"	d
+KBS_IBF	./kern/driver/kbdreg.h	21;"	d
+KBS_NOSEC	./kern/driver/kbdreg.h	24;"	d
+KBS_PERR	./kern/driver/kbdreg.h	27;"	d
+KBS_RERR	./kern/driver/kbdreg.h	26;"	d
+KBS_TERR	./kern/driver/kbdreg.h	25;"	d
+KBS_WARM	./kern/driver/kbdreg.h	22;"	d
+KC8_CPU	./kern/driver/kbdreg.h	57;"	d
+KC8_IGNSEC	./kern/driver/kbdreg.h	56;"	d
+KC8_KDISABLE	./kern/driver/kbdreg.h	55;"	d
+KC8_KENABLE	./kern/driver/kbdreg.h	59;"	d
+KC8_MDISABLE	./kern/driver/kbdreg.h	54;"	d
+KC8_MENABLE	./kern/driver/kbdreg.h	58;"	d
+KC8_TRANS	./kern/driver/kbdreg.h	53;"	d
+KERNEL_CS	./kern/mm/memlayout.h	23;"	d
+KERNEL_DS	./kern/mm/memlayout.h	24;"	d
+KEY_DEL	./kern/driver/kbdreg.h	14;"	d
+KEY_DN	./kern/driver/kbdreg.h	8;"	d
+KEY_END	./kern/driver/kbdreg.h	6;"	d
+KEY_HOME	./kern/driver/kbdreg.h	5;"	d
+KEY_INS	./kern/driver/kbdreg.h	13;"	d
+KEY_LF	./kern/driver/kbdreg.h	9;"	d
+KEY_PGDN	./kern/driver/kbdreg.h	12;"	d
+KEY_PGUP	./kern/driver/kbdreg.h	11;"	d
+KEY_RT	./kern/driver/kbdreg.h	10;"	d
+KEY_UP	./kern/driver/kbdreg.h	7;"	d
+K_LDCMDBYTE	./kern/driver/kbdreg.h	51;"	d
+K_RDCMDBYTE	./kern/driver/kbdreg.h	50;"	d
+LPTPORT	./kern/driver/console.c	49;"	d	file:
+MAXARGS	./kern/debug/kmonitor.c	29;"	d	file:
+MAXERROR	./libs/error.h	13;"	d
+MONO_BASE	./kern/driver/console.c	41;"	d	file:
+MONO_BUF	./kern/driver/console.c	42;"	d	file:
+NCOMMANDS	./kern/debug/kmonitor.c	25;"	d	file:
+NO	./kern/driver/console.c	254;"	d	file:
+NULL	./libs/defs.h	5;"	d
+NUMLOCK	./kern/driver/console.c	261;"	d	file:
+N_BCOMM	./kern/debug/stab.h	39;"	d
+N_BINCL	./kern/debug/stab.h	31;"	d
+N_BSLINE	./kern/debug/stab.h	27;"	d
+N_DSLINE	./kern/debug/stab.h	26;"	d
+N_ECOML	./kern/debug/stab.h	41;"	d
+N_ECOMM	./kern/debug/stab.h	40;"	d
+N_EINCL	./kern/debug/stab.h	34;"	d
+N_ENTRY	./kern/debug/stab.h	35;"	d
+N_EXCL	./kern/debug/stab.h	37;"	d
+N_FNAME	./kern/debug/stab.h	18;"	d
+N_FUN	./kern/debug/stab.h	19;"	d
+N_GSYM	./kern/debug/stab.h	17;"	d
+N_LBRAC	./kern/debug/stab.h	36;"	d
+N_LCSYM	./kern/debug/stab.h	21;"	d
+N_LENG	./kern/debug/stab.h	42;"	d
+N_LSYM	./kern/debug/stab.h	30;"	d
+N_MAIN	./kern/debug/stab.h	22;"	d
+N_PC	./kern/debug/stab.h	23;"	d
+N_PSYM	./kern/debug/stab.h	33;"	d
+N_RBRAC	./kern/debug/stab.h	38;"	d
+N_RSYM	./kern/debug/stab.h	24;"	d
+N_SLINE	./kern/debug/stab.h	25;"	d
+N_SO	./kern/debug/stab.h	29;"	d
+N_SOL	./kern/debug/stab.h	32;"	d
+N_SSYM	./kern/debug/stab.h	28;"	d
+N_STSYM	./kern/debug/stab.h	20;"	d
+ROUNDDOWN	./libs/defs.h	43;"	d
+ROUNDUP	./libs/defs.h	49;"	d
+SCROLLLOCK	./kern/driver/console.c	262;"	d	file:
+SECTSIZE	./boot/bootmain.c	33;"	d	file:
+SEG	./kern/mm/mmu.h	116;"	d
+SEG16	./kern/mm/mmu.h	124;"	d
+SEG_ASM	./boot/asm.h	11;"	d
+SEG_KDATA	./kern/mm/memlayout.h	8;"	d
+SEG_KTEXT	./kern/mm/memlayout.h	7;"	d
+SEG_NULL	./kern/mm/mmu.h	113;"	d
+SEG_NULLASM	./boot/asm.h	7;"	d
+SEG_TSS	./kern/mm/memlayout.h	11;"	d
+SEG_UDATA	./kern/mm/memlayout.h	10;"	d
+SEG_UTEXT	./kern/mm/memlayout.h	9;"	d
+SETCALLGATE	./kern/mm/mmu.h	84;"	d
+SETGATE	./kern/mm/mmu.h	71;"	d
+SHIFT	./kern/driver/console.c	256;"	d	file:
+STACKFRAME_DEPTH	./kern/debug/kdebug.c	8;"	d	file:
+STA_A	./boot/asm.h	23;"	d
+STA_A	./kern/mm/mmu.h	33;"	d
+STA_C	./boot/asm.h	20;"	d
+STA_C	./kern/mm/mmu.h	30;"	d
+STA_E	./boot/asm.h	19;"	d
+STA_E	./kern/mm/mmu.h	29;"	d
+STA_R	./boot/asm.h	22;"	d
+STA_R	./kern/mm/mmu.h	32;"	d
+STA_W	./boot/asm.h	21;"	d
+STA_W	./kern/mm/mmu.h	31;"	d
+STA_X	./boot/asm.h	18;"	d
+STA_X	./kern/mm/mmu.h	28;"	d
+STS_CG16	./kern/mm/mmu.h	39;"	d
+STS_CG32	./kern/mm/mmu.h	45;"	d
+STS_IG16	./kern/mm/mmu.h	41;"	d
+STS_IG32	./kern/mm/mmu.h	46;"	d
+STS_LDT	./kern/mm/mmu.h	37;"	d
+STS_T16A	./kern/mm/mmu.h	36;"	d
+STS_T16B	./kern/mm/mmu.h	38;"	d
+STS_T32A	./kern/mm/mmu.h	43;"	d
+STS_T32B	./kern/mm/mmu.h	44;"	d
+STS_TG	./kern/mm/mmu.h	40;"	d
+STS_TG16	./kern/mm/mmu.h	42;"	d
+STS_TG32	./kern/mm/mmu.h	47;"	d
+TICK_NUM	./kern/trap/trap.c	12;"	d	file:
+TIMER_16BIT	./kern/driver/clock.c	24;"	d	file:
+TIMER_DIV	./kern/driver/clock.c	19;"	d	file:
+TIMER_FREQ	./kern/driver/clock.c	18;"	d	file:
+TIMER_MODE	./kern/driver/clock.c	21;"	d	file:
+TIMER_RATEGEN	./kern/driver/clock.c	23;"	d	file:
+TIMER_SEL0	./kern/driver/clock.c	22;"	d	file:
+T_ALIGN	./kern/trap/trap.h	26;"	d
+T_BOUND	./kern/trap/trap.h	14;"	d
+T_BRKPT	./kern/trap/trap.h	12;"	d
+T_DBLFLT	./kern/trap/trap.h	17;"	d
+T_DEBUG	./kern/trap/trap.h	10;"	d
+T_DEVICE	./kern/trap/trap.h	16;"	d
+T_DIVIDE	./kern/trap/trap.h	9;"	d
+T_FPERR	./kern/trap/trap.h	25;"	d
+T_GPFLT	./kern/trap/trap.h	22;"	d
+T_ILLOP	./kern/trap/trap.h	15;"	d
+T_MCHK	./kern/trap/trap.h	27;"	d
+T_NMI	./kern/trap/trap.h	11;"	d
+T_OFLOW	./kern/trap/trap.h	13;"	d
+T_PGFLT	./kern/trap/trap.h	23;"	d
+T_SEGNP	./kern/trap/trap.h	20;"	d
+T_SIMDERR	./kern/trap/trap.h	28;"	d
+T_STACK	./kern/trap/trap.h	21;"	d
+T_SWITCH_TOK	./kern/trap/trap.h	48;"	d
+T_SWITCH_TOU	./kern/trap/trap.h	47;"	d
+T_SYSCALL	./kern/trap/trap.h	30;"	d
+T_TSS	./kern/trap/trap.h	19;"	d
+USER_CS	./kern/mm/memlayout.h	25;"	d
+USER_DS	./kern/mm/memlayout.h	26;"	d
+WHITESPACE	./kern/debug/kmonitor.c	30;"	d	file:
+__BOOT_ASM_H__	./boot/asm.h	2;"	d
+__HAVE_ARCH_MEMCPY	./libs/x86.h	172;"	d
+__HAVE_ARCH_MEMMOVE	./libs/x86.h	153;"	d
+__HAVE_ARCH_MEMSET	./libs/x86.h	139;"	d
+__HAVE_ARCH_STRCMP	./libs/x86.h	99;"	d
+__HAVE_ARCH_STRCPY	./libs/x86.h	123;"	d
+__KERN_DEBUG_ASSERT_H__	./kern/debug/assert.h	2;"	d
+__KERN_DEBUG_KDEBUG_H__	./kern/debug/kdebug.h	2;"	d
+__KERN_DEBUG_MONITOR_H__	./kern/debug/kmonitor.h	2;"	d
+__KERN_DEBUG_STAB_H__	./kern/debug/stab.h	2;"	d
+__KERN_DRIVER_CLOCK_H__	./kern/driver/clock.h	2;"	d
+__KERN_DRIVER_CONSOLE_H__	./kern/driver/console.h	2;"	d
+__KERN_DRIVER_INTR_H__	./kern/driver/intr.h	2;"	d
+__KERN_DRIVER_KBDREG_H__	./kern/driver/kbdreg.h	2;"	d
+__KERN_DRIVER_PICIRQ_H__	./kern/driver/picirq.h	2;"	d
+__KERN_MM_MEMLAYOUT_H__	./kern/mm/memlayout.h	2;"	d
+__KERN_MM_MMU_H__	./kern/mm/mmu.h	2;"	d
+__KERN_MM_PMM_H__	./kern/mm/pmm.h	2;"	d
+__KERN_TRAP_TRAP_H__	./kern/trap/trap.h	2;"	d
+__LIBS_DEFS_H__	./libs/defs.h	2;"	d
+__LIBS_ELF_H__	./libs/elf.h	2;"	d
+__LIBS_ERROR_H__	./libs/error.h	2;"	d
+__LIBS_STDARG_H__	./libs/stdarg.h	2;"	d
+__LIBS_STDIO_H__	./libs/stdio.h	2;"	d
+__LIBS_STRING_H__	./libs/string.h	2;"	d
+__LIBS_X86_H__	./libs/x86.h	2;"	d
+__alltraps	./kern/trap/trapentry.S	/^__alltraps:$/;"	l
+__always_inline	./libs/defs.h	8;"	d
+__memcpy	./libs/x86.h	/^__memcpy(void *dst, const void *src, size_t n) {$/;"	f
+__memmove	./libs/x86.h	/^__memmove(void *dst, const void *src, size_t n) {$/;"	f
+__memset	./libs/x86.h	/^__memset(void *s, char c, size_t n) {$/;"	f
+__noinline	./libs/defs.h	9;"	d
+__noreturn	./libs/defs.h	10;"	d
+__panic	./kern/debug/panic.c	/^__panic(const char *file, int line, const char *fmt, ...) {$/;"	f
+__strcmp	./libs/x86.h	/^__strcmp(const char *s1, const char *s2) {$/;"	f
+__strcpy	./libs/x86.h	/^__strcpy(char *dst, const char *src) {$/;"	f
+__trapret	./kern/trap/trapentry.S	/^__trapret:$/;"	l
+__vectors	./kern/trap/vectors.S	/^__vectors:$/;"	l
+__warn	./kern/debug/panic.c	/^__warn(const char *file, int line, const char *fmt, ...) {$/;"	f
+addr_6845	./kern/driver/console.c	/^static uint16_t addr_6845;$/;"	v	file:
+assert	./kern/debug/assert.h	15;"	d
+bool	./libs/defs.h	/^typedef int bool;$/;"	t
+bootmain	./boot/bootmain.c	/^bootmain(void) {$/;"	f
+buf	./kern/driver/console.c	/^    uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1	file:
+buf	./kern/libs/readline.c	/^static char buf[BUFSIZE];$/;"	v	file:
+buf	./libs/printfmt.c	/^    char *buf;            \/\/ address pointer points to the first unused memory$/;"	m	struct:sprintbuf	file:
+cga_init	./kern/driver/console.c	/^cga_init(void) {$/;"	f	file:
+cga_putc	./kern/driver/console.c	/^cga_putc(int c) {$/;"	f	file:
+charcode	./kern/driver/console.c	/^static uint8_t *charcode[4] = {$/;"	v	file:
+cli	./libs/x86.h	/^cli(void) {$/;"	f
+clock_init	./kern/driver/clock.c	/^clock_init(void) {$/;"	f
+cnt	./libs/printfmt.c	/^    int cnt;            \/\/ the number of characters that have been placed in this buffer$/;"	m	struct:sprintbuf	file:
+command	./kern/debug/kmonitor.c	/^struct command {$/;"	s	file:
+commands	./kern/debug/kmonitor.c	/^static struct command commands[] = {$/;"	v	typeref:struct:command	file:
+cons	./kern/driver/console.c	/^} cons;$/;"	v	typeref:struct:__anon1	file:
+cons_getc	./kern/driver/console.c	/^cons_getc(void) {$/;"	f
+cons_init	./kern/driver/console.c	/^cons_init(void) {$/;"	f
+cons_intr	./kern/driver/console.c	/^cons_intr(int (*proc)(void)) {$/;"	f	file:
+cons_putc	./kern/driver/console.c	/^cons_putc(int c) {$/;"	f
+cprintf	./kern/libs/stdio.c	/^cprintf(const char *fmt, ...) {$/;"	f
+cputch	./kern/libs/stdio.c	/^cputch(int c, int *cnt) {$/;"	f	file:
+cputchar	./kern/libs/stdio.c	/^cputchar(int c) {$/;"	f
+cputs	./kern/libs/stdio.c	/^cputs(const char *str) {$/;"	f
+crt_buf	./kern/driver/console.c	/^static uint16_t *crt_buf;$/;"	v	file:
+crt_pos	./kern/driver/console.c	/^static uint16_t crt_pos;$/;"	v	file:
+ctlmap	./kern/driver/console.c	/^static uint8_t ctlmap[256] = {$/;"	v	file:
+debuginfo_eip	./kern/debug/kdebug.c	/^debuginfo_eip(uintptr_t addr, struct eipdebuginfo *info) {$/;"	f
+delay	./kern/driver/console.c	/^delay(void) {$/;"	f	file:
+desc	./kern/debug/kmonitor.c	/^    const char *desc;$/;"	m	struct:command	file:
+did_init	./kern/driver/picirq.c	/^static bool did_init = 0;$/;"	v	file:
+do_div	./libs/x86.h	6;"	d
+e_ehsize	./libs/elf.h	/^    uint16_t e_ehsize;    \/\/ size of this elf header$/;"	m	struct:elfhdr
+e_elf	./libs/elf.h	/^    uint8_t e_elf[12];$/;"	m	struct:elfhdr
+e_entry	./libs/elf.h	/^    uint32_t e_entry;     \/\/ entry point if executable$/;"	m	struct:elfhdr
+e_flags	./libs/elf.h	/^    uint32_t e_flags;     \/\/ architecture-specific flags, usually 0$/;"	m	struct:elfhdr
+e_machine	./libs/elf.h	/^    uint16_t e_machine;   \/\/ 3=x86, 4=68K, etc.$/;"	m	struct:elfhdr
+e_magic	./libs/elf.h	/^    uint32_t e_magic;     \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+e_phentsize	./libs/elf.h	/^    uint16_t e_phentsize; \/\/ size of an entry in program header$/;"	m	struct:elfhdr
+e_phnum	./libs/elf.h	/^    uint16_t e_phnum;     \/\/ number of entries in program header or 0$/;"	m	struct:elfhdr
+e_phoff	./libs/elf.h	/^    uint32_t e_phoff;     \/\/ file position of program header or 0$/;"	m	struct:elfhdr
+e_shentsize	./libs/elf.h	/^    uint16_t e_shentsize; \/\/ size of an entry in section header$/;"	m	struct:elfhdr
+e_shnum	./libs/elf.h	/^    uint16_t e_shnum;     \/\/ number of entries in section header or 0$/;"	m	struct:elfhdr
+e_shoff	./libs/elf.h	/^    uint32_t e_shoff;     \/\/ file position of section header or 0$/;"	m	struct:elfhdr
+e_shstrndx	./libs/elf.h	/^    uint16_t e_shstrndx;  \/\/ section number that contains section name strings$/;"	m	struct:elfhdr
+e_type	./libs/elf.h	/^    uint16_t e_type;      \/\/ 1=relocatable, 2=executable, 3=shared object, 4=core image$/;"	m	struct:elfhdr
+e_version	./libs/elf.h	/^    uint32_t e_version;   \/\/ file version, always 1$/;"	m	struct:elfhdr
+ebuf	./libs/printfmt.c	/^    char *ebuf;            \/\/ points the end of the buffer$/;"	m	struct:sprintbuf	file:
+eip_file	./kern/debug/kdebug.c	/^    const char *eip_file;                   \/\/ source code filename for eip$/;"	m	struct:eipdebuginfo	file:
+eip_fn_addr	./kern/debug/kdebug.c	/^    uintptr_t eip_fn_addr;                  \/\/ start address of function$/;"	m	struct:eipdebuginfo	file:
+eip_fn_name	./kern/debug/kdebug.c	/^    const char *eip_fn_name;                \/\/ name of function containing eip$/;"	m	struct:eipdebuginfo	file:
+eip_fn_namelen	./kern/debug/kdebug.c	/^    int eip_fn_namelen;                     \/\/ length of function's name$/;"	m	struct:eipdebuginfo	file:
+eip_fn_narg	./kern/debug/kdebug.c	/^    int eip_fn_narg;                        \/\/ number of function arguments$/;"	m	struct:eipdebuginfo	file:
+eip_line	./kern/debug/kdebug.c	/^    int eip_line;                           \/\/ source code line number for eip$/;"	m	struct:eipdebuginfo	file:
+eipdebuginfo	./kern/debug/kdebug.c	/^struct eipdebuginfo {$/;"	s	file:
+elfhdr	./libs/elf.h	/^struct elfhdr {$/;"	s
+error_string	./libs/printfmt.c	/^static const char * const error_string[MAXERROR + 1] = {$/;"	v	file:
+func	./kern/debug/kmonitor.c	/^    int(*func)(int argc, char **argv, struct trapframe *tf);$/;"	m	struct:command	file:
+gatedesc	./kern/mm/mmu.h	/^struct gatedesc {$/;"	s
+gd_args	./kern/mm/mmu.h	/^    unsigned gd_args : 5;            \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+gd_dpl	./kern/mm/mmu.h	/^    unsigned gd_dpl : 2;            \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+gd_off_15_0	./kern/mm/mmu.h	/^    unsigned gd_off_15_0 : 16;        \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+gd_off_31_16	./kern/mm/mmu.h	/^    unsigned gd_off_31_16 : 16;        \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+gd_p	./kern/mm/mmu.h	/^    unsigned gd_p : 1;                \/\/ Present$/;"	m	struct:gatedesc
+gd_rsv1	./kern/mm/mmu.h	/^    unsigned gd_rsv1 : 3;            \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+gd_s	./kern/mm/mmu.h	/^    unsigned gd_s : 1;                \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+gd_ss	./kern/mm/mmu.h	/^    unsigned gd_ss : 16;            \/\/ segment selector$/;"	m	struct:gatedesc
+gd_type	./kern/mm/mmu.h	/^    unsigned gd_type : 4;            \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+gdt	./boot/bootasm.S	/^gdt:$/;"	l
+gdt	./kern/mm/pmm.c	/^static struct segdesc gdt[] = {$/;"	v	typeref:struct:segdesc	file:
+gdt_init	./kern/mm/pmm.c	/^gdt_init(void) {$/;"	f	file:
+gdt_pd	./kern/mm/pmm.c	/^static struct pseudodesc gdt_pd = {$/;"	v	typeref:struct:pseudodesc	file:
+gdtdesc	./boot/bootasm.S	/^gdtdesc:$/;"	l
+getchar	./kern/libs/stdio.c	/^getchar(void) {$/;"	f
+getint	./libs/printfmt.c	/^getint(va_list *ap, int lflag) {$/;"	f	file:
+getuint	./libs/printfmt.c	/^getuint(va_list *ap, int lflag) {$/;"	f	file:
+grade_backtrace	./kern/init/init.c	/^grade_backtrace(void) {$/;"	f
+grade_backtrace0	./kern/init/init.c	/^grade_backtrace0(int arg0, int arg1, int arg2) {$/;"	f
+grade_backtrace1	./kern/init/init.c	/^grade_backtrace1(int arg0, int arg1) {$/;"	f
+grade_backtrace2	./kern/init/init.c	/^grade_backtrace2(int arg0, int arg1, int arg2, int arg3) {$/;"	f
+idt	./kern/trap/trap.c	/^static struct gatedesc idt[256] = {{0}};$/;"	v	typeref:struct:gatedesc	file:
+idt_init	./kern/trap/trap.c	/^idt_init(void) {$/;"	f
+idt_pd	./kern/trap/trap.c	/^static struct pseudodesc idt_pd = {$/;"	v	typeref:struct:pseudodesc	file:
+inb	./libs/x86.h	/^inb(uint16_t port) {$/;"	f
+insl	./libs/x86.h	/^insl(uint32_t port, void *addr, int cnt) {$/;"	f
+int16_t	./libs/defs.h	/^typedef short int16_t;$/;"	t
+int32_t	./libs/defs.h	/^typedef int int32_t;$/;"	t
+int64_t	./libs/defs.h	/^typedef long long int64_t;$/;"	t
+int8_t	./libs/defs.h	/^typedef char int8_t;$/;"	t
+intptr_t	./libs/defs.h	/^typedef int32_t intptr_t;$/;"	t
+intr_disable	./kern/driver/intr.c	/^intr_disable(void) {$/;"	f
+intr_enable	./kern/driver/intr.c	/^intr_enable(void) {$/;"	f
+irq_mask	./kern/driver/picirq.c	/^static uint16_t irq_mask = 0xFFFF & ~(1 << IRQ_SLAVE);$/;"	v	file:
+is_kernel_panic	./kern/debug/panic.c	/^is_kernel_panic(void) {$/;"	f
+is_panic	./kern/debug/panic.c	/^static bool is_panic = 0;$/;"	v	file:
+kbd_init	./kern/driver/console.c	/^kbd_init(void) {$/;"	f	file:
+kbd_intr	./kern/driver/console.c	/^kbd_intr(void) {$/;"	f	file:
+kbd_proc_data	./kern/driver/console.c	/^kbd_proc_data(void) {$/;"	f	file:
+kern_init	./kern/init/init.c	/^kern_init(void) {$/;"	f
+kmonitor	./kern/debug/kmonitor.c	/^kmonitor(struct trapframe *tf) {$/;"	f
+lab1_print_cur_status	./kern/init/init.c	/^lab1_print_cur_status(void) {$/;"	f	file:
+lab1_switch_test	./kern/init/init.c	/^lab1_switch_test(void) {$/;"	f	file:
+lab1_switch_to_kernel	./kern/init/init.c	/^lab1_switch_to_kernel(void) {$/;"	f	file:
+lab1_switch_to_user	./kern/init/init.c	/^lab1_switch_to_user(void) {$/;"	f	file:
+lgdt	./kern/mm/pmm.c	/^lgdt(struct pseudodesc *pd) {$/;"	f	file:
+lidt	./libs/x86.h	/^lidt(struct pseudodesc *pd) {$/;"	f
+lpt_putc	./kern/driver/console.c	/^lpt_putc(int c) {$/;"	f	file:
+lpt_putc_sub	./kern/driver/console.c	/^lpt_putc_sub(int c) {$/;"	f	file:
+ltr	./libs/x86.h	/^ltr(uint16_t sel) {$/;"	f
+main	./tools/sign.c	/^main(int argc, char *argv[]) {$/;"	f
+main	./tools/vector.c	/^main(void) {$/;"	f
+memcmp	./libs/string.c	/^memcmp(const void *v1, const void *v2, size_t n) {$/;"	f
+memcpy	./libs/string.c	/^memcpy(void *dst, const void *src, size_t n) {$/;"	f
+memmove	./libs/string.c	/^memmove(void *dst, const void *src, size_t n) {$/;"	f
+memset	./libs/string.c	/^memset(void *s, char c, size_t n) {$/;"	f
+mon_backtrace	./kern/debug/kmonitor.c	/^mon_backtrace(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_help	./kern/debug/kmonitor.c	/^mon_help(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_kerninfo	./kern/debug/kmonitor.c	/^mon_kerninfo(int argc, char **argv, struct trapframe *tf) {$/;"	f
+n_desc	./kern/debug/stab.h	/^    uint16_t n_desc;        \/\/ description field$/;"	m	struct:stab
+n_other	./kern/debug/stab.h	/^    uint8_t n_other;        \/\/ misc info (usually empty)$/;"	m	struct:stab
+n_strx	./kern/debug/stab.h	/^    uint32_t n_strx;        \/\/ index into string table of name$/;"	m	struct:stab
+n_type	./kern/debug/stab.h	/^    uint8_t n_type;         \/\/ type of symbol$/;"	m	struct:stab
+n_value	./kern/debug/stab.h	/^    uintptr_t n_value;      \/\/ value of symbol$/;"	m	struct:stab
+name	./kern/debug/kmonitor.c	/^    const char *name;$/;"	m	struct:command	file:
+normalmap	./kern/driver/console.c	/^static uint8_t normalmap[256] = {$/;"	v	file:
+offsetof	./libs/defs.h	55;"	d
+outb	./libs/x86.h	/^outb(uint16_t port, uint8_t data) {$/;"	f
+outw	./libs/x86.h	/^outw(uint16_t port, uint16_t data) {$/;"	f
+p_align	./libs/elf.h	/^    uint32_t p_align;  \/\/ required alignment, invariably hardware page size$/;"	m	struct:proghdr
+p_filesz	./libs/elf.h	/^    uint32_t p_filesz; \/\/ size of segment in file$/;"	m	struct:proghdr
+p_flags	./libs/elf.h	/^    uint32_t p_flags;  \/\/ read\/write\/execute bits$/;"	m	struct:proghdr
+p_memsz	./libs/elf.h	/^    uint32_t p_memsz;  \/\/ size of segment in memory (bigger if contains bss）$/;"	m	struct:proghdr
+p_offset	./libs/elf.h	/^    uint32_t p_offset; \/\/ file offset of segment$/;"	m	struct:proghdr
+p_pa	./libs/elf.h	/^    uint32_t p_pa;     \/\/ physical address, not used$/;"	m	struct:proghdr
+p_type	./libs/elf.h	/^    uint32_t p_type;   \/\/ loadable code or data, dynamic linking info,etc.$/;"	m	struct:proghdr
+p_va	./libs/elf.h	/^    uint32_t p_va;     \/\/ virtual address to map segment$/;"	m	struct:proghdr
+panic	./kern/debug/assert.h	12;"	d
+parse	./kern/debug/kmonitor.c	/^parse(char *buf, char **argv) {$/;"	f	file:
+pd_base	./libs/x86.h	/^    uint32_t pd_base;        \/\/ Base address$/;"	m	struct:pseudodesc
+pd_lim	./libs/x86.h	/^    uint16_t pd_lim;        \/\/ Limit$/;"	m	struct:pseudodesc
+pic_enable	./kern/driver/picirq.c	/^pic_enable(unsigned int irq) {$/;"	f
+pic_init	./kern/driver/picirq.c	/^pic_init(void) {$/;"	f
+pic_setmask	./kern/driver/picirq.c	/^pic_setmask(uint16_t mask) {$/;"	f	file:
+pmm_init	./kern/mm/pmm.c	/^pmm_init(void) {$/;"	f
+ppn_t	./libs/defs.h	/^typedef size_t ppn_t;$/;"	t
+print_debuginfo	./kern/debug/kdebug.c	/^print_debuginfo(uintptr_t eip) {$/;"	f
+print_kerninfo	./kern/debug/kdebug.c	/^print_kerninfo(void) {$/;"	f
+print_regs	./kern/trap/trap.c	/^print_regs(struct pushregs *regs) {$/;"	f
+print_stackframe	./kern/debug/kdebug.c	/^print_stackframe(void) {$/;"	f
+print_ticks	./kern/trap/trap.c	/^static void print_ticks() {$/;"	f	file:
+print_trapframe	./kern/trap/trap.c	/^print_trapframe(struct trapframe *tf) {$/;"	f
+printfmt	./libs/printfmt.c	/^printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...) {$/;"	f
+printnum	./libs/printfmt.c	/^printnum(void (*putch)(int, void*), void *putdat,$/;"	f	file:
+proghdr	./libs/elf.h	/^struct proghdr {$/;"	s
+protcseg	./boot/bootasm.S	/^protcseg:$/;"	l
+pseudodesc	./libs/x86.h	/^struct pseudodesc {$/;"	s
+pushregs	./kern/trap/trap.h	/^struct pushregs {$/;"	s
+read_ebp	./libs/x86.h	/^read_ebp(void) {$/;"	f
+read_eip	./kern/debug/kdebug.c	/^read_eip(void) {$/;"	f	file:
+readline	./kern/libs/readline.c	/^readline(const char *prompt) {$/;"	f
+readsect	./boot/bootmain.c	/^readsect(void *dst, uint32_t secno) {$/;"	f	file:
+readseg	./boot/bootmain.c	/^readseg(uintptr_t va, uint32_t count, uint32_t offset) {$/;"	f	file:
+reg_eax	./kern/trap/trap.h	/^    uint32_t reg_eax;$/;"	m	struct:pushregs
+reg_ebp	./kern/trap/trap.h	/^    uint32_t reg_ebp;$/;"	m	struct:pushregs
+reg_ebx	./kern/trap/trap.h	/^    uint32_t reg_ebx;$/;"	m	struct:pushregs
+reg_ecx	./kern/trap/trap.h	/^    uint32_t reg_ecx;$/;"	m	struct:pushregs
+reg_edi	./kern/trap/trap.h	/^    uint32_t reg_edi;$/;"	m	struct:pushregs
+reg_edx	./kern/trap/trap.h	/^    uint32_t reg_edx;$/;"	m	struct:pushregs
+reg_esi	./kern/trap/trap.h	/^    uint32_t reg_esi;$/;"	m	struct:pushregs
+reg_oesp	./kern/trap/trap.h	/^    uint32_t reg_oesp;            \/* Useless *\/$/;"	m	struct:pushregs
+rpos	./kern/driver/console.c	/^    uint32_t rpos;$/;"	m	struct:__anon1	file:
+runcmd	./kern/debug/kmonitor.c	/^runcmd(char *buf, struct trapframe *tf) {$/;"	f	file:
+sd_avl	./kern/mm/mmu.h	/^    unsigned sd_avl : 1;            \/\/ unused (available for software use)$/;"	m	struct:segdesc
+sd_base_15_0	./kern/mm/mmu.h	/^    unsigned sd_base_15_0 : 16;        \/\/ low bits of segment base address$/;"	m	struct:segdesc
+sd_base_23_16	./kern/mm/mmu.h	/^    unsigned sd_base_23_16 : 8;        \/\/ middle bits of segment base address$/;"	m	struct:segdesc
+sd_base_31_24	./kern/mm/mmu.h	/^    unsigned sd_base_31_24 : 8;        \/\/ high bits of segment base address$/;"	m	struct:segdesc
+sd_db	./kern/mm/mmu.h	/^    unsigned sd_db : 1;                \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+sd_dpl	./kern/mm/mmu.h	/^    unsigned sd_dpl : 2;            \/\/ descriptor Privilege Level$/;"	m	struct:segdesc
+sd_g	./kern/mm/mmu.h	/^    unsigned sd_g : 1;                \/\/ granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+sd_lim_15_0	./kern/mm/mmu.h	/^    unsigned sd_lim_15_0 : 16;        \/\/ low bits of segment limit$/;"	m	struct:segdesc
+sd_lim_19_16	./kern/mm/mmu.h	/^    unsigned sd_lim_19_16 : 4;        \/\/ high bits of segment limit$/;"	m	struct:segdesc
+sd_p	./kern/mm/mmu.h	/^    unsigned sd_p : 1;                \/\/ present$/;"	m	struct:segdesc
+sd_rsv1	./kern/mm/mmu.h	/^    unsigned sd_rsv1 : 1;            \/\/ reserved$/;"	m	struct:segdesc
+sd_s	./kern/mm/mmu.h	/^    unsigned sd_s : 1;                \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+sd_type	./kern/mm/mmu.h	/^    unsigned sd_type : 4;            \/\/ segment type (see STS_ constants)$/;"	m	struct:segdesc
+segdesc	./kern/mm/mmu.h	/^struct segdesc {$/;"	s
+serial_exists	./kern/driver/console.c	/^static bool serial_exists = 0;$/;"	v	file:
+serial_init	./kern/driver/console.c	/^serial_init(void) {$/;"	f	file:
+serial_intr	./kern/driver/console.c	/^serial_intr(void) {$/;"	f
+serial_proc_data	./kern/driver/console.c	/^serial_proc_data(void) {$/;"	f	file:
+serial_putc	./kern/driver/console.c	/^serial_putc(int c) {$/;"	f	file:
+serial_putc_sub	./kern/driver/console.c	/^serial_putc_sub(int c) {$/;"	f	file:
+shiftcode	./kern/driver/console.c	/^static uint8_t shiftcode[256] = {$/;"	v	file:
+shiftmap	./kern/driver/console.c	/^static uint8_t shiftmap[256] = {$/;"	v	file:
+size_t	./libs/defs.h	/^typedef uintptr_t size_t;$/;"	t
+snprintf	./libs/printfmt.c	/^snprintf(char *str, size_t size, const char *fmt, ...) {$/;"	f
+spin	./boot/bootasm.S	/^spin:$/;"	l
+sprintbuf	./libs/printfmt.c	/^struct sprintbuf {$/;"	s	file:
+sprintputch	./libs/printfmt.c	/^sprintputch(int ch, struct sprintbuf *b) {$/;"	f	file:
+stab	./kern/debug/stab.h	/^struct stab {$/;"	s
+stab_binsearch	./kern/debug/kdebug.c	/^stab_binsearch(const struct stab *stabs, int *region_left, int *region_right,$/;"	f	file:
+stack0	./kern/mm/pmm.c	/^uint8_t stack0[1024];$/;"	v
+start	./boot/bootasm.S	/^start:$/;"	l
+static_assert	./kern/debug/assert.h	23;"	d
+sti	./libs/x86.h	/^sti(void) {$/;"	f
+strchr	./libs/string.c	/^strchr(const char *s, char c) {$/;"	f
+strcmp	./libs/string.c	/^strcmp(const char *s1, const char *s2) {$/;"	f
+strcpy	./libs/string.c	/^strcpy(char *dst, const char *src) {$/;"	f
+strfind	./libs/string.c	/^strfind(const char *s, char c) {$/;"	f
+strlen	./libs/string.c	/^strlen(const char *s) {$/;"	f
+strncmp	./libs/string.c	/^strncmp(const char *s1, const char *s2, size_t n) {$/;"	f
+strncpy	./libs/string.c	/^strncpy(char *dst, const char *src, size_t len) {$/;"	f
+strnlen	./libs/string.c	/^strnlen(const char *s, size_t len) {$/;"	f
+strtol	./libs/string.c	/^strtol(const char *s, char **endptr, int base) {$/;"	f
+taskstate	./kern/mm/mmu.h	/^struct taskstate {$/;"	s
+tf_cs	./kern/trap/trap.h	/^    uint16_t tf_cs;$/;"	m	struct:trapframe
+tf_ds	./kern/trap/trap.h	/^    uint16_t tf_ds;$/;"	m	struct:trapframe
+tf_eflags	./kern/trap/trap.h	/^    uint32_t tf_eflags;$/;"	m	struct:trapframe
+tf_eip	./kern/trap/trap.h	/^    uintptr_t tf_eip;$/;"	m	struct:trapframe
+tf_err	./kern/trap/trap.h	/^    uint32_t tf_err;$/;"	m	struct:trapframe
+tf_es	./kern/trap/trap.h	/^    uint16_t tf_es;$/;"	m	struct:trapframe
+tf_esp	./kern/trap/trap.h	/^    uintptr_t tf_esp;$/;"	m	struct:trapframe
+tf_fs	./kern/trap/trap.h	/^    uint16_t tf_fs;$/;"	m	struct:trapframe
+tf_gs	./kern/trap/trap.h	/^    uint16_t tf_gs;$/;"	m	struct:trapframe
+tf_padding0	./kern/trap/trap.h	/^    uint16_t tf_padding0;$/;"	m	struct:trapframe
+tf_padding1	./kern/trap/trap.h	/^    uint16_t tf_padding1;$/;"	m	struct:trapframe
+tf_padding2	./kern/trap/trap.h	/^    uint16_t tf_padding2;$/;"	m	struct:trapframe
+tf_padding3	./kern/trap/trap.h	/^    uint16_t tf_padding3;$/;"	m	struct:trapframe
+tf_padding4	./kern/trap/trap.h	/^    uint16_t tf_padding4;$/;"	m	struct:trapframe
+tf_padding5	./kern/trap/trap.h	/^    uint16_t tf_padding5;$/;"	m	struct:trapframe
+tf_regs	./kern/trap/trap.h	/^    struct pushregs tf_regs;$/;"	m	struct:trapframe	typeref:struct:trapframe::pushregs
+tf_ss	./kern/trap/trap.h	/^    uint16_t tf_ss;$/;"	m	struct:trapframe
+tf_trapno	./kern/trap/trap.h	/^    uint32_t tf_trapno;$/;"	m	struct:trapframe
+ticks	./kern/driver/clock.c	/^volatile size_t ticks;$/;"	v
+to_struct	./libs/defs.h	64;"	d
+togglecode	./kern/driver/console.c	/^static uint8_t togglecode[256] = {$/;"	v	file:
+trap	./kern/trap/trap.c	/^trap(struct trapframe *tf) {$/;"	f
+trap_dispatch	./kern/trap/trap.c	/^trap_dispatch(struct trapframe *tf) {$/;"	f	file:
+trap_in_kernel	./kern/trap/trap.c	/^trap_in_kernel(struct trapframe *tf) {$/;"	f
+trapframe	./kern/trap/trap.h	/^struct trapframe {$/;"	s
+trapname	./kern/trap/trap.c	/^trapname(int trapno) {$/;"	f	file:
+ts	./kern/mm/pmm.c	/^static struct taskstate ts = {0};$/;"	v	typeref:struct:taskstate	file:
+ts_cr3	./kern/mm/mmu.h	/^    uintptr_t ts_cr3;        \/\/ page directory base$/;"	m	struct:taskstate
+ts_cs	./kern/mm/mmu.h	/^    uint16_t ts_cs;$/;"	m	struct:taskstate
+ts_ds	./kern/mm/mmu.h	/^    uint16_t ts_ds;$/;"	m	struct:taskstate
+ts_eax	./kern/mm/mmu.h	/^    uint32_t ts_eax;        \/\/ more saved state (registers)$/;"	m	struct:taskstate
+ts_ebp	./kern/mm/mmu.h	/^    uintptr_t ts_ebp;$/;"	m	struct:taskstate
+ts_ebx	./kern/mm/mmu.h	/^    uint32_t ts_ebx;$/;"	m	struct:taskstate
+ts_ecx	./kern/mm/mmu.h	/^    uint32_t ts_ecx;$/;"	m	struct:taskstate
+ts_edi	./kern/mm/mmu.h	/^    uint32_t ts_edi;$/;"	m	struct:taskstate
+ts_edx	./kern/mm/mmu.h	/^    uint32_t ts_edx;$/;"	m	struct:taskstate
+ts_eflags	./kern/mm/mmu.h	/^    uint32_t ts_eflags;$/;"	m	struct:taskstate
+ts_eip	./kern/mm/mmu.h	/^    uintptr_t ts_eip;        \/\/ saved state from last task switch$/;"	m	struct:taskstate
+ts_es	./kern/mm/mmu.h	/^    uint16_t ts_es;            \/\/ even more saved state (segment selectors)$/;"	m	struct:taskstate
+ts_esi	./kern/mm/mmu.h	/^    uint32_t ts_esi;$/;"	m	struct:taskstate
+ts_esp	./kern/mm/mmu.h	/^    uintptr_t ts_esp;$/;"	m	struct:taskstate
+ts_esp0	./kern/mm/mmu.h	/^    uintptr_t ts_esp0;        \/\/ stack pointers and segment selectors$/;"	m	struct:taskstate
+ts_esp1	./kern/mm/mmu.h	/^    uintptr_t ts_esp1;$/;"	m	struct:taskstate
+ts_esp2	./kern/mm/mmu.h	/^    uintptr_t ts_esp2;$/;"	m	struct:taskstate
+ts_fs	./kern/mm/mmu.h	/^    uint16_t ts_fs;$/;"	m	struct:taskstate
+ts_gs	./kern/mm/mmu.h	/^    uint16_t ts_gs;$/;"	m	struct:taskstate
+ts_iomb	./kern/mm/mmu.h	/^    uint16_t ts_iomb;        \/\/ i\/o map base address$/;"	m	struct:taskstate
+ts_ldt	./kern/mm/mmu.h	/^    uint16_t ts_ldt;$/;"	m	struct:taskstate
+ts_link	./kern/mm/mmu.h	/^    uint32_t ts_link;        \/\/ old ts selector$/;"	m	struct:taskstate
+ts_padding1	./kern/mm/mmu.h	/^    uint16_t ts_padding1;$/;"	m	struct:taskstate
+ts_padding10	./kern/mm/mmu.h	/^    uint16_t ts_padding10;$/;"	m	struct:taskstate
+ts_padding2	./kern/mm/mmu.h	/^    uint16_t ts_padding2;$/;"	m	struct:taskstate
+ts_padding3	./kern/mm/mmu.h	/^    uint16_t ts_padding3;$/;"	m	struct:taskstate
+ts_padding4	./kern/mm/mmu.h	/^    uint16_t ts_padding4;$/;"	m	struct:taskstate
+ts_padding5	./kern/mm/mmu.h	/^    uint16_t ts_padding5;$/;"	m	struct:taskstate
+ts_padding6	./kern/mm/mmu.h	/^    uint16_t ts_padding6;$/;"	m	struct:taskstate
+ts_padding7	./kern/mm/mmu.h	/^    uint16_t ts_padding7;$/;"	m	struct:taskstate
+ts_padding8	./kern/mm/mmu.h	/^    uint16_t ts_padding8;$/;"	m	struct:taskstate
+ts_padding9	./kern/mm/mmu.h	/^    uint16_t ts_padding9;$/;"	m	struct:taskstate
+ts_ss	./kern/mm/mmu.h	/^    uint16_t ts_ss;$/;"	m	struct:taskstate
+ts_ss0	./kern/mm/mmu.h	/^    uint16_t ts_ss0;        \/\/ after an increase in privilege level$/;"	m	struct:taskstate
+ts_ss1	./kern/mm/mmu.h	/^    uint16_t ts_ss1;$/;"	m	struct:taskstate
+ts_ss2	./kern/mm/mmu.h	/^    uint16_t ts_ss2;$/;"	m	struct:taskstate
+ts_t	./kern/mm/mmu.h	/^    uint16_t ts_t;            \/\/ trap on task switch$/;"	m	struct:taskstate
+uint16_t	./libs/defs.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	./libs/defs.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	./libs/defs.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	./libs/defs.h	/^typedef unsigned char uint8_t;$/;"	t
+uintptr_t	./libs/defs.h	/^typedef uint32_t uintptr_t;$/;"	t
+va_arg	./libs/stdarg.h	8;"	d
+va_end	./libs/stdarg.h	9;"	d
+va_list	./libs/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_start	./libs/stdarg.h	7;"	d
+vcprintf	./kern/libs/stdio.c	/^vcprintf(const char *fmt, va_list ap) {$/;"	f
+vector0	./kern/trap/vectors.S	/^vector0:$/;"	l
+vector1	./kern/trap/vectors.S	/^vector1:$/;"	l
+vector10	./kern/trap/vectors.S	/^vector10:$/;"	l
+vector100	./kern/trap/vectors.S	/^vector100:$/;"	l
+vector101	./kern/trap/vectors.S	/^vector101:$/;"	l
+vector102	./kern/trap/vectors.S	/^vector102:$/;"	l
+vector103	./kern/trap/vectors.S	/^vector103:$/;"	l
+vector104	./kern/trap/vectors.S	/^vector104:$/;"	l
+vector105	./kern/trap/vectors.S	/^vector105:$/;"	l
+vector106	./kern/trap/vectors.S	/^vector106:$/;"	l
+vector107	./kern/trap/vectors.S	/^vector107:$/;"	l
+vector108	./kern/trap/vectors.S	/^vector108:$/;"	l
+vector109	./kern/trap/vectors.S	/^vector109:$/;"	l
+vector11	./kern/trap/vectors.S	/^vector11:$/;"	l
+vector110	./kern/trap/vectors.S	/^vector110:$/;"	l
+vector111	./kern/trap/vectors.S	/^vector111:$/;"	l
+vector112	./kern/trap/vectors.S	/^vector112:$/;"	l
+vector113	./kern/trap/vectors.S	/^vector113:$/;"	l
+vector114	./kern/trap/vectors.S	/^vector114:$/;"	l
+vector115	./kern/trap/vectors.S	/^vector115:$/;"	l
+vector116	./kern/trap/vectors.S	/^vector116:$/;"	l
+vector117	./kern/trap/vectors.S	/^vector117:$/;"	l
+vector118	./kern/trap/vectors.S	/^vector118:$/;"	l
+vector119	./kern/trap/vectors.S	/^vector119:$/;"	l
+vector12	./kern/trap/vectors.S	/^vector12:$/;"	l
+vector120	./kern/trap/vectors.S	/^vector120:$/;"	l
+vector121	./kern/trap/vectors.S	/^vector121:$/;"	l
+vector122	./kern/trap/vectors.S	/^vector122:$/;"	l
+vector123	./kern/trap/vectors.S	/^vector123:$/;"	l
+vector124	./kern/trap/vectors.S	/^vector124:$/;"	l
+vector125	./kern/trap/vectors.S	/^vector125:$/;"	l
+vector126	./kern/trap/vectors.S	/^vector126:$/;"	l
+vector127	./kern/trap/vectors.S	/^vector127:$/;"	l
+vector128	./kern/trap/vectors.S	/^vector128:$/;"	l
+vector129	./kern/trap/vectors.S	/^vector129:$/;"	l
+vector13	./kern/trap/vectors.S	/^vector13:$/;"	l
+vector130	./kern/trap/vectors.S	/^vector130:$/;"	l
+vector131	./kern/trap/vectors.S	/^vector131:$/;"	l
+vector132	./kern/trap/vectors.S	/^vector132:$/;"	l
+vector133	./kern/trap/vectors.S	/^vector133:$/;"	l
+vector134	./kern/trap/vectors.S	/^vector134:$/;"	l
+vector135	./kern/trap/vectors.S	/^vector135:$/;"	l
+vector136	./kern/trap/vectors.S	/^vector136:$/;"	l
+vector137	./kern/trap/vectors.S	/^vector137:$/;"	l
+vector138	./kern/trap/vectors.S	/^vector138:$/;"	l
+vector139	./kern/trap/vectors.S	/^vector139:$/;"	l
+vector14	./kern/trap/vectors.S	/^vector14:$/;"	l
+vector140	./kern/trap/vectors.S	/^vector140:$/;"	l
+vector141	./kern/trap/vectors.S	/^vector141:$/;"	l
+vector142	./kern/trap/vectors.S	/^vector142:$/;"	l
+vector143	./kern/trap/vectors.S	/^vector143:$/;"	l
+vector144	./kern/trap/vectors.S	/^vector144:$/;"	l
+vector145	./kern/trap/vectors.S	/^vector145:$/;"	l
+vector146	./kern/trap/vectors.S	/^vector146:$/;"	l
+vector147	./kern/trap/vectors.S	/^vector147:$/;"	l
+vector148	./kern/trap/vectors.S	/^vector148:$/;"	l
+vector149	./kern/trap/vectors.S	/^vector149:$/;"	l
+vector15	./kern/trap/vectors.S	/^vector15:$/;"	l
+vector150	./kern/trap/vectors.S	/^vector150:$/;"	l
+vector151	./kern/trap/vectors.S	/^vector151:$/;"	l
+vector152	./kern/trap/vectors.S	/^vector152:$/;"	l
+vector153	./kern/trap/vectors.S	/^vector153:$/;"	l
+vector154	./kern/trap/vectors.S	/^vector154:$/;"	l
+vector155	./kern/trap/vectors.S	/^vector155:$/;"	l
+vector156	./kern/trap/vectors.S	/^vector156:$/;"	l
+vector157	./kern/trap/vectors.S	/^vector157:$/;"	l
+vector158	./kern/trap/vectors.S	/^vector158:$/;"	l
+vector159	./kern/trap/vectors.S	/^vector159:$/;"	l
+vector16	./kern/trap/vectors.S	/^vector16:$/;"	l
+vector160	./kern/trap/vectors.S	/^vector160:$/;"	l
+vector161	./kern/trap/vectors.S	/^vector161:$/;"	l
+vector162	./kern/trap/vectors.S	/^vector162:$/;"	l
+vector163	./kern/trap/vectors.S	/^vector163:$/;"	l
+vector164	./kern/trap/vectors.S	/^vector164:$/;"	l
+vector165	./kern/trap/vectors.S	/^vector165:$/;"	l
+vector166	./kern/trap/vectors.S	/^vector166:$/;"	l
+vector167	./kern/trap/vectors.S	/^vector167:$/;"	l
+vector168	./kern/trap/vectors.S	/^vector168:$/;"	l
+vector169	./kern/trap/vectors.S	/^vector169:$/;"	l
+vector17	./kern/trap/vectors.S	/^vector17:$/;"	l
+vector170	./kern/trap/vectors.S	/^vector170:$/;"	l
+vector171	./kern/trap/vectors.S	/^vector171:$/;"	l
+vector172	./kern/trap/vectors.S	/^vector172:$/;"	l
+vector173	./kern/trap/vectors.S	/^vector173:$/;"	l
+vector174	./kern/trap/vectors.S	/^vector174:$/;"	l
+vector175	./kern/trap/vectors.S	/^vector175:$/;"	l
+vector176	./kern/trap/vectors.S	/^vector176:$/;"	l
+vector177	./kern/trap/vectors.S	/^vector177:$/;"	l
+vector178	./kern/trap/vectors.S	/^vector178:$/;"	l
+vector179	./kern/trap/vectors.S	/^vector179:$/;"	l
+vector18	./kern/trap/vectors.S	/^vector18:$/;"	l
+vector180	./kern/trap/vectors.S	/^vector180:$/;"	l
+vector181	./kern/trap/vectors.S	/^vector181:$/;"	l
+vector182	./kern/trap/vectors.S	/^vector182:$/;"	l
+vector183	./kern/trap/vectors.S	/^vector183:$/;"	l
+vector184	./kern/trap/vectors.S	/^vector184:$/;"	l
+vector185	./kern/trap/vectors.S	/^vector185:$/;"	l
+vector186	./kern/trap/vectors.S	/^vector186:$/;"	l
+vector187	./kern/trap/vectors.S	/^vector187:$/;"	l
+vector188	./kern/trap/vectors.S	/^vector188:$/;"	l
+vector189	./kern/trap/vectors.S	/^vector189:$/;"	l
+vector19	./kern/trap/vectors.S	/^vector19:$/;"	l
+vector190	./kern/trap/vectors.S	/^vector190:$/;"	l
+vector191	./kern/trap/vectors.S	/^vector191:$/;"	l
+vector192	./kern/trap/vectors.S	/^vector192:$/;"	l
+vector193	./kern/trap/vectors.S	/^vector193:$/;"	l
+vector194	./kern/trap/vectors.S	/^vector194:$/;"	l
+vector195	./kern/trap/vectors.S	/^vector195:$/;"	l
+vector196	./kern/trap/vectors.S	/^vector196:$/;"	l
+vector197	./kern/trap/vectors.S	/^vector197:$/;"	l
+vector198	./kern/trap/vectors.S	/^vector198:$/;"	l
+vector199	./kern/trap/vectors.S	/^vector199:$/;"	l
+vector2	./kern/trap/vectors.S	/^vector2:$/;"	l
+vector20	./kern/trap/vectors.S	/^vector20:$/;"	l
+vector200	./kern/trap/vectors.S	/^vector200:$/;"	l
+vector201	./kern/trap/vectors.S	/^vector201:$/;"	l
+vector202	./kern/trap/vectors.S	/^vector202:$/;"	l
+vector203	./kern/trap/vectors.S	/^vector203:$/;"	l
+vector204	./kern/trap/vectors.S	/^vector204:$/;"	l
+vector205	./kern/trap/vectors.S	/^vector205:$/;"	l
+vector206	./kern/trap/vectors.S	/^vector206:$/;"	l
+vector207	./kern/trap/vectors.S	/^vector207:$/;"	l
+vector208	./kern/trap/vectors.S	/^vector208:$/;"	l
+vector209	./kern/trap/vectors.S	/^vector209:$/;"	l
+vector21	./kern/trap/vectors.S	/^vector21:$/;"	l
+vector210	./kern/trap/vectors.S	/^vector210:$/;"	l
+vector211	./kern/trap/vectors.S	/^vector211:$/;"	l
+vector212	./kern/trap/vectors.S	/^vector212:$/;"	l
+vector213	./kern/trap/vectors.S	/^vector213:$/;"	l
+vector214	./kern/trap/vectors.S	/^vector214:$/;"	l
+vector215	./kern/trap/vectors.S	/^vector215:$/;"	l
+vector216	./kern/trap/vectors.S	/^vector216:$/;"	l
+vector217	./kern/trap/vectors.S	/^vector217:$/;"	l
+vector218	./kern/trap/vectors.S	/^vector218:$/;"	l
+vector219	./kern/trap/vectors.S	/^vector219:$/;"	l
+vector22	./kern/trap/vectors.S	/^vector22:$/;"	l
+vector220	./kern/trap/vectors.S	/^vector220:$/;"	l
+vector221	./kern/trap/vectors.S	/^vector221:$/;"	l
+vector222	./kern/trap/vectors.S	/^vector222:$/;"	l
+vector223	./kern/trap/vectors.S	/^vector223:$/;"	l
+vector224	./kern/trap/vectors.S	/^vector224:$/;"	l
+vector225	./kern/trap/vectors.S	/^vector225:$/;"	l
+vector226	./kern/trap/vectors.S	/^vector226:$/;"	l
+vector227	./kern/trap/vectors.S	/^vector227:$/;"	l
+vector228	./kern/trap/vectors.S	/^vector228:$/;"	l
+vector229	./kern/trap/vectors.S	/^vector229:$/;"	l
+vector23	./kern/trap/vectors.S	/^vector23:$/;"	l
+vector230	./kern/trap/vectors.S	/^vector230:$/;"	l
+vector231	./kern/trap/vectors.S	/^vector231:$/;"	l
+vector232	./kern/trap/vectors.S	/^vector232:$/;"	l
+vector233	./kern/trap/vectors.S	/^vector233:$/;"	l
+vector234	./kern/trap/vectors.S	/^vector234:$/;"	l
+vector235	./kern/trap/vectors.S	/^vector235:$/;"	l
+vector236	./kern/trap/vectors.S	/^vector236:$/;"	l
+vector237	./kern/trap/vectors.S	/^vector237:$/;"	l
+vector238	./kern/trap/vectors.S	/^vector238:$/;"	l
+vector239	./kern/trap/vectors.S	/^vector239:$/;"	l
+vector24	./kern/trap/vectors.S	/^vector24:$/;"	l
+vector240	./kern/trap/vectors.S	/^vector240:$/;"	l
+vector241	./kern/trap/vectors.S	/^vector241:$/;"	l
+vector242	./kern/trap/vectors.S	/^vector242:$/;"	l
+vector243	./kern/trap/vectors.S	/^vector243:$/;"	l
+vector244	./kern/trap/vectors.S	/^vector244:$/;"	l
+vector245	./kern/trap/vectors.S	/^vector245:$/;"	l
+vector246	./kern/trap/vectors.S	/^vector246:$/;"	l
+vector247	./kern/trap/vectors.S	/^vector247:$/;"	l
+vector248	./kern/trap/vectors.S	/^vector248:$/;"	l
+vector249	./kern/trap/vectors.S	/^vector249:$/;"	l
+vector25	./kern/trap/vectors.S	/^vector25:$/;"	l
+vector250	./kern/trap/vectors.S	/^vector250:$/;"	l
+vector251	./kern/trap/vectors.S	/^vector251:$/;"	l
+vector252	./kern/trap/vectors.S	/^vector252:$/;"	l
+vector253	./kern/trap/vectors.S	/^vector253:$/;"	l
+vector254	./kern/trap/vectors.S	/^vector254:$/;"	l
+vector255	./kern/trap/vectors.S	/^vector255:$/;"	l
+vector26	./kern/trap/vectors.S	/^vector26:$/;"	l
+vector27	./kern/trap/vectors.S	/^vector27:$/;"	l
+vector28	./kern/trap/vectors.S	/^vector28:$/;"	l
+vector29	./kern/trap/vectors.S	/^vector29:$/;"	l
+vector3	./kern/trap/vectors.S	/^vector3:$/;"	l
+vector30	./kern/trap/vectors.S	/^vector30:$/;"	l
+vector31	./kern/trap/vectors.S	/^vector31:$/;"	l
+vector32	./kern/trap/vectors.S	/^vector32:$/;"	l
+vector33	./kern/trap/vectors.S	/^vector33:$/;"	l
+vector34	./kern/trap/vectors.S	/^vector34:$/;"	l
+vector35	./kern/trap/vectors.S	/^vector35:$/;"	l
+vector36	./kern/trap/vectors.S	/^vector36:$/;"	l
+vector37	./kern/trap/vectors.S	/^vector37:$/;"	l
+vector38	./kern/trap/vectors.S	/^vector38:$/;"	l
+vector39	./kern/trap/vectors.S	/^vector39:$/;"	l
+vector4	./kern/trap/vectors.S	/^vector4:$/;"	l
+vector40	./kern/trap/vectors.S	/^vector40:$/;"	l
+vector41	./kern/trap/vectors.S	/^vector41:$/;"	l
+vector42	./kern/trap/vectors.S	/^vector42:$/;"	l
+vector43	./kern/trap/vectors.S	/^vector43:$/;"	l
+vector44	./kern/trap/vectors.S	/^vector44:$/;"	l
+vector45	./kern/trap/vectors.S	/^vector45:$/;"	l
+vector46	./kern/trap/vectors.S	/^vector46:$/;"	l
+vector47	./kern/trap/vectors.S	/^vector47:$/;"	l
+vector48	./kern/trap/vectors.S	/^vector48:$/;"	l
+vector49	./kern/trap/vectors.S	/^vector49:$/;"	l
+vector5	./kern/trap/vectors.S	/^vector5:$/;"	l
+vector50	./kern/trap/vectors.S	/^vector50:$/;"	l
+vector51	./kern/trap/vectors.S	/^vector51:$/;"	l
+vector52	./kern/trap/vectors.S	/^vector52:$/;"	l
+vector53	./kern/trap/vectors.S	/^vector53:$/;"	l
+vector54	./kern/trap/vectors.S	/^vector54:$/;"	l
+vector55	./kern/trap/vectors.S	/^vector55:$/;"	l
+vector56	./kern/trap/vectors.S	/^vector56:$/;"	l
+vector57	./kern/trap/vectors.S	/^vector57:$/;"	l
+vector58	./kern/trap/vectors.S	/^vector58:$/;"	l
+vector59	./kern/trap/vectors.S	/^vector59:$/;"	l
+vector6	./kern/trap/vectors.S	/^vector6:$/;"	l
+vector60	./kern/trap/vectors.S	/^vector60:$/;"	l
+vector61	./kern/trap/vectors.S	/^vector61:$/;"	l
+vector62	./kern/trap/vectors.S	/^vector62:$/;"	l
+vector63	./kern/trap/vectors.S	/^vector63:$/;"	l
+vector64	./kern/trap/vectors.S	/^vector64:$/;"	l
+vector65	./kern/trap/vectors.S	/^vector65:$/;"	l
+vector66	./kern/trap/vectors.S	/^vector66:$/;"	l
+vector67	./kern/trap/vectors.S	/^vector67:$/;"	l
+vector68	./kern/trap/vectors.S	/^vector68:$/;"	l
+vector69	./kern/trap/vectors.S	/^vector69:$/;"	l
+vector7	./kern/trap/vectors.S	/^vector7:$/;"	l
+vector70	./kern/trap/vectors.S	/^vector70:$/;"	l
+vector71	./kern/trap/vectors.S	/^vector71:$/;"	l
+vector72	./kern/trap/vectors.S	/^vector72:$/;"	l
+vector73	./kern/trap/vectors.S	/^vector73:$/;"	l
+vector74	./kern/trap/vectors.S	/^vector74:$/;"	l
+vector75	./kern/trap/vectors.S	/^vector75:$/;"	l
+vector76	./kern/trap/vectors.S	/^vector76:$/;"	l
+vector77	./kern/trap/vectors.S	/^vector77:$/;"	l
+vector78	./kern/trap/vectors.S	/^vector78:$/;"	l
+vector79	./kern/trap/vectors.S	/^vector79:$/;"	l
+vector8	./kern/trap/vectors.S	/^vector8:$/;"	l
+vector80	./kern/trap/vectors.S	/^vector80:$/;"	l
+vector81	./kern/trap/vectors.S	/^vector81:$/;"	l
+vector82	./kern/trap/vectors.S	/^vector82:$/;"	l
+vector83	./kern/trap/vectors.S	/^vector83:$/;"	l
+vector84	./kern/trap/vectors.S	/^vector84:$/;"	l
+vector85	./kern/trap/vectors.S	/^vector85:$/;"	l
+vector86	./kern/trap/vectors.S	/^vector86:$/;"	l
+vector87	./kern/trap/vectors.S	/^vector87:$/;"	l
+vector88	./kern/trap/vectors.S	/^vector88:$/;"	l
+vector89	./kern/trap/vectors.S	/^vector89:$/;"	l
+vector9	./kern/trap/vectors.S	/^vector9:$/;"	l
+vector90	./kern/trap/vectors.S	/^vector90:$/;"	l
+vector91	./kern/trap/vectors.S	/^vector91:$/;"	l
+vector92	./kern/trap/vectors.S	/^vector92:$/;"	l
+vector93	./kern/trap/vectors.S	/^vector93:$/;"	l
+vector94	./kern/trap/vectors.S	/^vector94:$/;"	l
+vector95	./kern/trap/vectors.S	/^vector95:$/;"	l
+vector96	./kern/trap/vectors.S	/^vector96:$/;"	l
+vector97	./kern/trap/vectors.S	/^vector97:$/;"	l
+vector98	./kern/trap/vectors.S	/^vector98:$/;"	l
+vector99	./kern/trap/vectors.S	/^vector99:$/;"	l
+vprintfmt	./libs/printfmt.c	/^vprintfmt(void (*putch)(int, void*), void *putdat, const char *fmt, va_list ap) {$/;"	f
+vsnprintf	./libs/printfmt.c	/^vsnprintf(char *str, size_t size, const char *fmt, va_list ap) {$/;"	f
+waitdisk	./boot/bootmain.c	/^waitdisk(void) {$/;"	f	file:
+warn	./kern/debug/assert.h	9;"	d
+wpos	./kern/driver/console.c	/^    uint32_t wpos;$/;"	m	struct:__anon1	file:
