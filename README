@@ -39,10 +39,17 @@ lab8 : 文件系统
 在windows x86-64环境下开发
 ==========================
 ucore OS实验主要在Linux环境下开发。如果你使用的是非Linux环境，则建议安装
-VirtualBox虚拟机软件(https://www.virtualbox.org/)，并下载已经安装好ubuntu
-14.04  x86-64的虚拟硬盘文件压缩包。VirtualBox和虚拟硬盘文件压缩包位于
-http://pan.baidu.com/s/1gdePM6J 。 压缩包可以用haozip for windows软件
-(http://www.haozip.com)解压。 解压压缩包后，可得到如下内容（大约4GB多）。 
+VirtualBox虚拟机软件
+  https://www.virtualbox.org/
+
+并下载已经安装好ubuntu 14.04  x86-64的虚拟硬盘文件压缩包。
+VirtualBox和虚拟硬盘文件压缩包位于
+  http://pan.baidu.com/s/1pJ4XTGZ 
+
+压缩包可以用haozip for windows软件
+  http://www.haozip.com
+
+解压。解压压缩包后，可得到如下内容（大约4GB多）。 
 ---
 \mooc-os\mooc-os.vbox
 \mooc-os\mooc-os.vbox-prev

@@ -1,0 +1,7 @@
+bin/
+obj/
+*~
+*.bak
+*.d
+*.o
+*.org
