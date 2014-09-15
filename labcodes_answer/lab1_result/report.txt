@@ -1,7 +1,8 @@
 Lab1 report
 [练习1]
 
-[练习1.1]
+[练习1.1] 操作系统镜像文件 ucore.img 是如何一步一步生成的?(需要比较详细地解释 Makefile 中
+每一条相关命令和命令参数的含义,以及说明命令导致的结果)
 
 bin/ucore.img
 | 生成ucore.img的相关代码为
@@ -137,7 +138,7 @@ bin/ucore.img
 | 从第二个块开始写kernel中的内容
 | dd if=bin/kernel of=bin/ucore.img seek=1 conv=notrunc
 
-[练习1.1]
+[练习1.2] 一个被系统认为是符合规范的硬盘主引导扇区的特征是什么?
 
 从sign.c的代码来看，一个磁盘主引导扇区只有512字节。且
 第510个（倒数第二个）字节是0x55，
@@ -147,9 +148,9 @@ bin/ucore.img
 
 [练习2]
 
-[练习2.1]
+[练习2.1] 从 CPU 加电后执行的第一条指令开始,单步跟踪 BIOS 的执行。
 
-通过改写Makefile文件
+通过改写Makefile文件  ()
 	debug: $(UCOREIMG)
 		$(V)$(TERMINAL) -e "$(QEMU) -S -s -d in_asm -D $(BINDIR)/q.log -parallel stdio -hda $< -serial null"
 		$(V)sleep 2
@@ -157,7 +158,7 @@ bin/ucore.img
 在调用qemu时增加-d in_asm -D q.log参数，便可以将运行的汇编指令保存在q.log中。
 为防止qemu在gdb连接后立即开始执行，删除了tools/gdbinit中的"continue"行。
 
-[练习2.2]
+[练习2.2] 在初始化位置0x7c00 设置实地址断点,测试断点正常。
 
 在tools/gdbinit结尾加上
     set architecture i8086  //设置当前调试的CPU是8086
@@ -179,7 +180,8 @@ bin/ucore.img
 	   0x7c0e:      jne    0x7c0a
 	   0x7c10:      mov    $0xd1,%al
 
-[练习2.3]
+[练习2.3] 在调用qemu 时增加-d in_asm -D q.log 参数，便可以将运行的汇编指令保存在q.log 中。
+将执行的汇编代码与bootasm.S 和 bootblock.asm 进行比较，看看二者是否一致。
 
 在tools/gdbinit结尾加上
 	b *0x7c00
@@ -257,7 +259,7 @@ bin/ucore.img
 	0x00007d0d:  push   %ebp
 其与bootasm.S和bootblock.asm中的代码相同。
 
-[练习3]
+[练习3] 分析bootloader 进入保护模式的过程。
 
 从%cs=0 $pc=0x7c00，进入后
 
@@ -316,7 +318,7 @@ bin/ucore.img
 
 
 
-[练习4]
+[练习4] ：分析bootloader加载ELF格式的OS的过程。
 
 首先看readsect函数，
 readsect从设备的第secno扇区读取数据到dst位置
@@ -395,7 +397,7 @@ readseg简单包装了readsect，可以从设备读取任意长度的内容。
 
 
 
-[练习5]
+[练习5] 实现函数调用堆栈跟踪函数 
 
 ss:ebp指向的堆栈位置储存着caller的ebp，以此为线索可以得到所有使用堆栈的函数ebp。
 ss:ebp+4指向caller调用时的eip，ss:ebp+8等是（可能的）参数。
@@ -410,21 +412,22 @@ call指令压栈，所以bootmain中ebp为0x7bf8。
 
 
 
-[练习6]
+[练习6] 完善中断初始化和处理
 
-[练习6.1]
+[练习6.1] 中断向量表中一个表项占多少字节？其中哪几位代表中断处理代码的入口？
 
 中断向量表一个表项占用8字节，其中2-3字节是段选择子，0-1字节和6-7字节拼成位移，
 两者联合便是中断处理程序的入口地址。
 
-[练习6.2]
+[练习6.2] 请编程完善kern/trap/trap.c中对中断向量表进行初始化的函数idt_init。
 见代码
 
-[练习6.3]
+[练习6.3] 请编程完善trap.c中的中断处理函数trap，在对时钟中断进行处理的部分填写trap函数
 见代码
 
 
-[练习7]
+[练习7] 	增加syscall功能，即增加一用户态函数（可执行一特定系统调用：获得时钟计数值），
+当内核初始完毕后，可从内核态返回到用户态的函数，而用户态的函数又通过系统调用得到内核态的服务
 
 在idt_init中，将用户态调用SWITCH_TOK中断的权限打开。
 	SETGATE(idt[T_SWITCH_TOK], 1, KERNEL_CS, __vectors[T_SWITCH_TOK], 3);
