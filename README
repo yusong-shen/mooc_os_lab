@@ -26,13 +26,13 @@ Attribution/Share-Alike (CC-BY-SA) License.
 实验内容
 ========
 lab0 : 完成实验环境的搭建，熟悉基本的Linux命令和工具
-lab1 ：启动操作系统的bootloader
-lab2 ：物理内存管理子系统
-lab3 ：虚拟内存管理子系统
-lab4 ：内核线程子系统
-lab5 ：用户进程管理子系统
-lab6 ：处理器调度子系统
-lab7 : 同步互斥子系统
+lab1 ：启动操作系统
+lab2 ：物理内存管理
+lab3 ：虚拟内存管理
+lab4 ：内核线程
+lab5 ：用户进程
+lab6 ：处理器调度
+lab7 : 同步互斥
 lab8 : 文件系统
 
 
@@ -92,6 +92,10 @@ ucore OS实验了。
  . OS实验资料     http://pan.baidu.com/s/1i3vbdXV
  . OS课程资料     http://pan.baidu.com/s/1bncWxyv
  . OS MOOC公开课  http://www.topu.com/mooc/4100
+ . ucore step by step code  https://github.com/chyyuu/ucore_step_by_step_code
+ . ucore step by step guide https://github.com/chyyuu/ucore_step_by_step_guild
+ . ucore step by step pdf book http://pan.baidu.com/s/1hqIdKOW
+ . ucore plus    https://github.com/chyyuu/ucore_plus
 
 
 UCORERS (代码贡献者)
