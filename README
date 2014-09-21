@@ -89,9 +89,21 @@ ucore OS实验了。
 
 相关资料
 ======================
- . OS实验资料     http://pan.baidu.com/s/1i3vbdXV
+
+希望了解OS基本概念和原理的同学
+------------------
+
  . OS课程资料     http://pan.baidu.com/s/1bncWxyv
  . OS MOOC公开课  http://www.topu.com/mooc/4100
+
+希望了解OS设计与实现细节的同学
+----------------
+
+ . OS实验资料     http://pan.baidu.com/s/1i3vbdXV
+
+希望自己动手实践OS的同学
+---------------
+
  . ucore step by step code  https://github.com/chyyuu/ucore_step_by_step_code
  . ucore step by step guide https://github.com/chyyuu/ucore_step_by_step_guild
  . ucore step by step pdf book http://pan.baidu.com/s/1hqIdKOW
