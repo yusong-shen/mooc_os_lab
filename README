@@ -44,12 +44,22 @@ VirtualBox虚拟机软件
 
   https://www.virtualbox.org/
 
+[NOTICE] 也可以安装vmware虚拟机软件
+
 使用已经预先安装好相关实验环境所需软件的虚拟硬盘
 -------------------------------------------------
 并下载已经安装好ubuntu 14.04  x86-64的虚拟硬盘文件压缩包。
 VirtualBox和虚拟硬盘文件压缩包位于
 
   http://pan.baidu.com/s/1pJ4XTGZ 
+
+--------------
+[NOTICE] 可同时用于vmware和virtualbox的OVA格式的虚拟硬盘文件mooc-os.ova 位于
+
+  http://pan.baidu.com/s/1gdePM6J
+
+可下载直接使用
+--------------
 
 压缩包可以用haozip for windows软件
 
@@ -84,8 +94,9 @@ ucore OS实验了。
   $ sudo apt-get update
   $ sudo apt-get upgrade
   $ sudo apt-get install build-essential git qemu-system-x86 \ 
-    vim-gnome gdb make diff utils exuberant-ctags tmux openssh-server cscope meld
+    vim-gnome gdb make diffutils exuberant-ctags tmux openssh-server cscope meld
 
+[NOTICE] 最小需要的安装包： build-essential git qemu-system-x86 gdb make diffutils 
 
 练习步骤
 ========
