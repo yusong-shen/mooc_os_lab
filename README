@@ -137,10 +137,9 @@ ucore OS实验了。
 希望自己动手实践OS的同学
 ---------------
 
- . ucore step by step code  https://github.com/chyyuu/ucore_step_by_step_code
- . ucore step by step guide https://github.com/chyyuu/ucore_step_by_step_guild
- . ucore step by step pdf book http://pan.baidu.com/s/1hqIdKOW
- . ucore plus    https://github.com/chyyuu/ucore_plus
+ . "操作系统简单实现与基本原理 — 基于ucore" (持续更新,变动较大) http://chyyuu.gitbooks.io/ucorebook/
+ . "操作系统简单实现与基本原理 — 基于ucore" 配套代码 https://github.com/chyyuu/ucorebook_code
+ . ucore plus 跨硬件平台的ucore OS   https://github.com/chyyuu/ucore_plus
 
 
 UCORERS (代码贡献者)
